@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "08f536e8-9e86-49df-9ef3-b2d44bca3d36",
+		"name": "API Numero Aleatorio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sorteador",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "numInicial",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "numFinal",
+							"value": "60",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3003/sorteador",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3003",
+					"path": [
+						"sorteador"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,6 +1,25 @@
 const _ = require("lodash")
 
-const numInicial = 1
-const numFinal = 500
+async function sorteador(sorteio) {
 
-console.log(_.random(numInicial, numFinal))
+    const numInicial = sorteio.Numero_Inicial
+    const numFinal = sorteio.Numero_Final
+
+    const numSorteado = _.random(numInicial, numFinal)
+
+    console.log(sorteio,`Numero Sorteado: ${numSorteado}`)
+
+    try {
+       
+        return {
+            Numero_Inicial: numInicial,
+            Numero_Final: numFinal,
+            Numero_Sorteado: numSorteado
+        }
+
+    } catch (error) {
+        console.error('Deu erro ao sortear!', error);
+    }
+}
+
+module.exports = { sorteador }

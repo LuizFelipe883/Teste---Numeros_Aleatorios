@@ -1,30 +1,23 @@
 {
-  "name": "teste---numeros_aleatorios",
+  "name": "numero_aleatorio",
   "version": "1.0.0",
-  "description": "Coloque o numero inicial e o numero final para funcionar corretamente",
-  "main": "NumerosAleatorios.js",
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "express": "^4.18.1",
-    "knex": "^0.95.10",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.3.0",
-    "nodemon": "^2.0.12"
-  },
+  "description": "teste---numeros_aleatorios",
+  "main": "./backend/controller/numerosAleatorios.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node NumerosAleatorios.js",
+    "start": "node ./backend/server.js",
+    "dev": "nodemon ./backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LuizFelipe883/Teste---Numeros_Aleatorios.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Luiz Felipe",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LuizFelipe883/Teste---Numeros_Aleatorios/issues"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.1.3",
+    "ejs": "^3.1.7",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21"
   },
-  "homepage": "https://github.com/LuizFelipe883/Teste---Numeros_Aleatorios#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }

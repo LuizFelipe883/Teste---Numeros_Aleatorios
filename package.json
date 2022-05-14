@@ -2,10 +2,10 @@
   "name": "numero_aleatorio",
   "version": "1.0.0",
   "description": "teste---numeros_aleatorios",
-  "main": "./backend/controller/numerosAleatorios.js",
+  "main": "./frontend/assets/js/server.jss",
   "scripts": {
-    "start": "node ./backend/server.js",
-    "dev": "nodemon ./backend/server.js",
+    "start": "nodemon ./frontend/assets/js/server.js",
+    "dev": "nodemon ./frontend/assets/js/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Luiz Felipe",

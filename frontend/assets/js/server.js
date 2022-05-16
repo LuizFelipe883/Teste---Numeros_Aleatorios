@@ -6,8 +6,6 @@ const bodyParser = require("body-parser")
 const PORT = 3003;
 
 app.use(bodyParser.urlencoded({ extended: true }))
-//\Dev\Teste - Numeros_Aleatorios\frontend\assets\js\assets"
-app.use('/assets', express.static(path.join(__dirname, './frontend/assets')));
 
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, './../../../frontend'));

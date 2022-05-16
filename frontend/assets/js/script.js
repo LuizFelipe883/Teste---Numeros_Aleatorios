@@ -1,5 +1,6 @@
 async function sortear() {
     try {
+
         const numInicial = document.getElementById('numInicial')
         const numeroInicial = numInicial.value
 
@@ -13,4 +14,8 @@ async function sortear() {
     }
 }
 
-sortear()
+const formSorteio = document.getElementById('numeros');
+formSorteio.addEventListener('submit', (e) => {
+    e.preventDefault();
+    sortear()
+})

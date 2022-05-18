@@ -2,10 +2,10 @@
   "name": "numero_aleatorio",
   "version": "1.0.0",
   "description": "teste---numeros_aleatorios",
-  "main": "./frontend/assets/js/server.jss",
+  "main": "./backend/server.js",
   "scripts": {
-    "start": "nodemon ./frontend/assets/js/server.js",
-    "dev": "nodemon ./frontend/assets/js/server.js",
+    "start": "nodemon ./backend/server.js",
+    "dev": "nodemon ./backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Luiz Felipe",
@@ -13,6 +13,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "bootstrap": "^5.1.3",
+    "cors": "^2.8.5",
     "ejs": "^3.1.7",
     "express": "^4.17.1",
     "lodash": "^4.17.21"

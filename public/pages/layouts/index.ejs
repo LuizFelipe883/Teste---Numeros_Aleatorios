@@ -1,0 +1,41 @@
+<div id="pag_inicial" class="container text-center">
+  <br>
+
+    <div class="row">
+        <div id="titulo" class="col-12 mb-4">
+          <section>
+            <h1>Sorteie um Numero</h1>
+          </section>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 mb-4">
+          <section>
+                <section>Sortear
+                    <input type="number" id="qtd_num_sortear" min="1" class="border border-primary text-center p-1 mb-2 align-middle"
+                  value="1"> número
+                <br>
+                entre
+                    <input type="number" min="0" max="999999999" id="numInicial" class="border border-primary text-center p-1 m-2 align-middle" value="">
+                e
+                    <input type="number" min="2" max="999999999" id="numFinal"class="border border-primary text-center p-1 m-2 align-middle" value="">
+                </section>
+          </section>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 mb-4">
+        <button type="button" style="width: 200pt; height: 100px;" class="rounded text-black font-bold border-primary">20</button>
+
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="dark:text-gray-100 mb-4">Sorteador de números aleatórios gratuito!!!</div>
+    </div>
+
+    <button id="btn_sortear" type="button" class="shadow p-3 mb-5 bg-body rounded text-black uppercase font-bold btn btn-outline-primary" onclick="{sortear()}">Sortear Agora!</button>
+
+</div>
